@@ -43,6 +43,7 @@ header .container {
 nav ul {
     list-style: none;
     display: flex;
+    padding-left: 0;
 }
 
 nav ul li {
@@ -86,6 +87,7 @@ nav ul li a:hover {
     display: flex;
     justify-content: space-between;
     margin-top: 50px;
+    gap: 20px; /* Add gap between the feature boxes */
 }
 
 .feature {
